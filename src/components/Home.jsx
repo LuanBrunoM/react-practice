@@ -35,6 +35,10 @@ function Home() {
       <Link to="/componentes" style={{width: 'fit-content'}}>
         <button>Componentes</button>
       </Link>
+
+      <Link to="/propriedades" style={{width: 'fit-content'}}>
+        <button>Propriedades</button>
+      </Link>
     </div>
   );
 }
