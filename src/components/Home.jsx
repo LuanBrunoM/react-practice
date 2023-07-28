@@ -49,6 +49,14 @@ function Home() {
       <Link to="/usestate-exercicio" style={{ width: 'fit-content' }}>
         <button>useState Exercicio</button>
       </Link>
+
+      <Link to="/useeffect" style={{ width: 'fit-content' }}>
+        <button>useEffect</button>
+      </Link>
+
+      <Link to="/useeffect-exercicio" style={{ width: 'fit-content' }}>
+        <button>useEffect Exercicio</button>
+      </Link>
     </div>
   );
 }
