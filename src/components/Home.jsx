@@ -57,6 +57,10 @@ function Home() {
       <Link to="/useeffect-exercicio" style={{ width: 'fit-content' }}>
         <button>useEffect Exercicio</button>
       </Link>
+
+      <Link to="/useref" style={{ width: 'fit-content' }}>
+        <button>useRef</button>
+      </Link>
     </div>
   );
 }
