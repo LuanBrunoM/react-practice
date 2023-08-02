@@ -61,6 +61,11 @@ function Home() {
       <Link to="/useref" style={{ width: 'fit-content' }}>
         <button>useRef</button>
       </Link>
+
+      <Link to="/usememo-usecallback" style={{ width: 'fit-content' }}>
+        <button>useMemo e useCallback</button>
+      </Link>
+
     </div>
   );
 }
