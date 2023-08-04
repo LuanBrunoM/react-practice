@@ -66,6 +66,10 @@ function Home() {
         <button>useMemo e useCallback</button>
       </Link>
 
+      <Link to="/usecontext" style={{ width: 'fit-content' }}>
+        <button>useContext</button>
+      </Link>
+
     </div>
   );
 }
