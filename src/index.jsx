@@ -41,7 +41,6 @@ createRoot(root).render(
       <Route path="/usememo-usecallback" element={<UseMemoUseCallback />} />
       <Route path="/usecontext" element={<UseContext />} />
       <Route path="/usecontext-exercicio" element={<UseContextExercicio />} />
-
     </Routes>
   </BrowserRouter>
 );
