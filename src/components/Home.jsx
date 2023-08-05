@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import ButtonHome from './ButtonHome';
 import { Link } from 'react-router-dom';
 
 function Home() {
@@ -69,6 +70,8 @@ function Home() {
       <Link to="/usecontext" style={{ width: 'fit-content' }}>
         <button>useContext</button>
       </Link>
+
+      <ButtonHome to={"/usecontext-exercicio"} nameButton={"useContext Exercicio"} />
 
     </div>
   );

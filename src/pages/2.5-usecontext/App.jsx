@@ -1,8 +1,12 @@
 import React from 'react'
+import Produto from './Produto'
+import { GlobalStorage } from './GlobalContext'
 
 const App = () => {
   return (
-    <div>App</div>
+    <GlobalStorage>
+      <Produto />
+    </GlobalStorage>
   )
 }
 

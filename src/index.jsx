@@ -18,6 +18,7 @@ import UseEffectExercicio from './pages/2.2-useeffect/exercicio/App.jsx'
 import UseRef from './pages/2.3-useref/App.jsx'
 import UseMemoUseCallback from './pages/2.4-usememo-usecallback/App.jsx'
 import UseContext from './pages/2.5-usecontext/App.jsx'
+import UseContextExercicio from './pages/2.5-usecontext/exercicio/App.jsx'
 
 const root = document.getElementById('root');
 
@@ -39,6 +40,7 @@ createRoot(root).render(
       <Route path="/useref" element={<UseRef />} />
       <Route path="/usememo-usecallback" element={<UseMemoUseCallback />} />
       <Route path="/usecontext" element={<UseContext />} />
+      <Route path="/usecontext-exercicio" element={<UseContextExercicio />} />
 
     </Routes>
   </BrowserRouter>
