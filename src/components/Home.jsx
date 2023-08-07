@@ -26,6 +26,7 @@ function Home() {
       <ButtonHome to={"/usememo-usecallback"} nameButton={"useMemo e useCallback"} />
       <ButtonHome to={"/usecontext"} nameButton={"useContext"} />
       <ButtonHome to={"/usecontext-exercicio"} nameButton={"useContext Exercicio"} />
+      <ButtonHome to={"/custom-hooks"} nameButton={"Custom Hooks"} />
     </div>
   );
 }
