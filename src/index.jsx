@@ -20,6 +20,7 @@ import UseMemoUseCallback from './pages/2.4-usememo-usecallback/App.jsx'
 import UseContext from './pages/2.5-usecontext/App.jsx'
 import UseContextExercicio from './pages/2.5-usecontext/exercicio/App.jsx'
 import CustomHooks from './pages/2.6-custom-hooks/App.jsx'
+import Input from './pages/3.1-input/App.jsx'
 
 const root = document.getElementById('root');
 
@@ -43,6 +44,7 @@ createRoot(root).render(
       <Route path="/usecontext" element={<UseContext />} />
       <Route path="/usecontext-exercicio" element={<UseContextExercicio />} />
       <Route path="/custom-hooks" element={<CustomHooks />} />
+      <Route path="/input" element={<Input />} />
     </Routes>
   </BrowserRouter>
 );

@@ -27,6 +27,10 @@ function Home() {
       <ButtonHome to={"/usecontext"} nameButton={"useContext"} />
       <ButtonHome to={"/usecontext-exercicio"} nameButton={"useContext Exercicio"} />
       <ButtonHome to={"/custom-hooks"} nameButton={"Custom Hooks"} />
+
+      <h2>Módulo 03: Formulários</h2>
+      <ButtonHome to={"/input"} nameButton={"Input"} />
+
     </div>
   );
 }
