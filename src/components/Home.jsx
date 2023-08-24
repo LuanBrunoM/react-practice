@@ -31,6 +31,7 @@ function Home() {
       <h2>Módulo 03: Formulários</h2>
       <ButtonHome to={"/input"} nameButton={"Input"} />
       <ButtonHome to={"/input-exercicio"} nameButton={"Input Exercicio"} />
+      <ButtonHome to={"/textarea"} nameButton={"TextArea"} />
 
     </div>
   );
