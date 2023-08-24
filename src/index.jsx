@@ -21,6 +21,7 @@ import UseContext from './pages/2.5-usecontext/App.jsx'
 import UseContextExercicio from './pages/2.5-usecontext/exercicio/App.jsx'
 import CustomHooks from './pages/2.6-custom-hooks/App.jsx'
 import Input from './pages/3.1-input/App.jsx'
+import InputExercicio from './pages/3.1-input/exercicio/App.jsx'
 
 const root = document.getElementById('root');
 
@@ -45,6 +46,7 @@ createRoot(root).render(
       <Route path="/usecontext-exercicio" element={<UseContextExercicio />} />
       <Route path="/custom-hooks" element={<CustomHooks />} />
       <Route path="/input" element={<Input />} />
+      <Route path="/input-exercicio" element={<InputExercicio />} />
     </Routes>
   </BrowserRouter>
 );
