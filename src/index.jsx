@@ -23,6 +23,7 @@ import CustomHooks from './pages/2.6-custom-hooks/App.jsx'
 import Input from './pages/3.1-input/App.jsx'
 import InputExercicio from './pages/3.1-input/exercicio/App.jsx'
 import TextArea from './pages/3.2-textarea/App.jsx'
+import Select from './pages/3.3-select/App.jsx'
 
 const root = document.getElementById('root');
 
@@ -49,6 +50,7 @@ createRoot(root).render(
       <Route path="/input" element={<Input />} />
       <Route path="/input-exercicio" element={<InputExercicio />} />
       <Route path="/textarea" element={<TextArea />} />
+      <Route path="/select" element={<Select />} />
     </Routes>
   </BrowserRouter>
 );

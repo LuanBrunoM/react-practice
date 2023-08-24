@@ -32,6 +32,7 @@ function Home() {
       <ButtonHome to={"/input"} nameButton={"Input"} />
       <ButtonHome to={"/input-exercicio"} nameButton={"Input Exercicio"} />
       <ButtonHome to={"/textarea"} nameButton={"TextArea"} />
+      <ButtonHome to={"/select"} nameButton={"Select"} />
 
     </div>
   );
