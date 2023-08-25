@@ -24,6 +24,7 @@ import Input from './pages/3.1-input/App.jsx'
 import InputExercicio from './pages/3.1-input/exercicio/App.jsx'
 import TextArea from './pages/3.2-textarea/App.jsx'
 import Select from './pages/3.3-select/App.jsx'
+import Radio from './pages/3.4-radio/App.jsx'
 
 const root = document.getElementById('root');
 
@@ -31,6 +32,7 @@ createRoot(root).render(
   <BrowserRouter>
     <Routes>
       <Route exact path="/" element={<Home />} />
+
       <Route path="/jsx-conceitos" element={<JsxConceitos />} />
       <Route path="/jsx-conceitos-exercicio" element={<JsxConceitosExercicios />} />
       <Route path="/jsx-arrays" element={<JsxArrays />} />
@@ -51,6 +53,7 @@ createRoot(root).render(
       <Route path="/input-exercicio" element={<InputExercicio />} />
       <Route path="/textarea" element={<TextArea />} />
       <Route path="/select" element={<Select />} />
+      <Route path="/radio" element={<Radio />} />
     </Routes>
   </BrowserRouter>
 );
