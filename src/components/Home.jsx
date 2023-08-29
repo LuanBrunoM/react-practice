@@ -34,6 +34,8 @@ function Home() {
       <ButtonHome to={"/textarea"} nameButton={"TextArea"} />
       <ButtonHome to={"/select"} nameButton={"Select"} />
       <ButtonHome to={"/radio"} nameButton={"Radio"} />
+      <ButtonHome to={"/checkbox"} nameButton={"Checkbox"} />
+      <ButtonHome to={"/checkbox-exercicio"} nameButton={"Checkbox Exercício"} />
 
     </div>
   );

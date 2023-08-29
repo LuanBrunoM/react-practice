@@ -25,6 +25,8 @@ import InputExercicio from './pages/3.1-input/exercicio/App.jsx'
 import TextArea from './pages/3.2-textarea/App.jsx'
 import Select from './pages/3.3-select/App.jsx'
 import Radio from './pages/3.4-radio/App.jsx'
+import Checkbox from './pages/3.5-checkbox/App.jsx'
+import CheckboxExercicio from './pages/3.5-checkbox/exercicio/App.jsx'
 
 const root = document.getElementById('root');
 
@@ -54,6 +56,8 @@ createRoot(root).render(
       <Route path="/textarea" element={<TextArea />} />
       <Route path="/select" element={<Select />} />
       <Route path="/radio" element={<Radio />} />
+      <Route path="/checkbox" element={<Checkbox />} />
+      <Route path="/checkbox-exercicio" element={<CheckboxExercicio />} />
     </Routes>
   </BrowserRouter>
 );
