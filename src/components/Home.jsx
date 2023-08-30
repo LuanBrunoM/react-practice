@@ -36,6 +36,7 @@ function Home() {
       <ButtonHome to={"/radio"} nameButton={"Radio"} />
       <ButtonHome to={"/checkbox"} nameButton={"Checkbox"} />
       <ButtonHome to={"/checkbox-exercicio"} nameButton={"Checkbox Exercício"} />
+      <ButtonHome to={"/componentes-input"} nameButton={"Componentes Input"} />
 
     </div>
   );
