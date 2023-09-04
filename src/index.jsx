@@ -29,6 +29,7 @@ import Checkbox from './pages/3.5-checkbox/App.jsx'
 import CheckboxExercicio from './pages/3.5-checkbox/exercicio/App.jsx'
 import ComponentesInput from './pages/3.6-componentes-input/App.jsx'
 import ComponentesSelect from './pages/3.7-componentes-select/App.jsx'
+import ComponentesRadio from './pages/3.8-componentes-radio/App.jsx'
 
 const root = document.getElementById('root');
 
@@ -62,6 +63,7 @@ createRoot(root).render(
       <Route path="/checkbox-exercicio" element={<CheckboxExercicio />} />
       <Route path="/componentes-input" element={<ComponentesInput />} />
       <Route path="/componentes-select" element={<ComponentesSelect />} />
+      <Route path="/componentes-radio" element={<ComponentesRadio />} />
     </Routes>
   </BrowserRouter>
 );
