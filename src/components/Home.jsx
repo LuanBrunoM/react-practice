@@ -10,7 +10,7 @@ function Home() {
       <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
 
         <h2>Módulo 01: React Introdução</h2>
-        <div style={{ display: 'grid', gridTemplateColumns: "1fr 1fr 1fr 1fr", gap: 10 }}>
+        <div style={{ display: 'grid', gridTemplateColumns: "1fr 1fr 1fr 1fr", gap: 10, marginBottom: "20px" }}>
           <ButtonHome to={"/jsx-conceitos"} nameButton={"JSX Conceitos"} />
           <ButtonHome to={"/jsx-conceitos-exercicio"} nameButton={"JSX Conceitos Exercício"} />
           <ButtonHome to={"/jsx-arrays"} nameButton={"JSX Arrays"} />
@@ -21,7 +21,7 @@ function Home() {
         </div>
 
         <h2>Módulo 02: Hooks</h2>
-        <div style={{ display: 'grid', gridTemplateColumns: "1fr 1fr 1fr 1fr", gap: 10 }}>
+        <div style={{ display: 'grid', gridTemplateColumns: "1fr 1fr 1fr 1fr", gap: 10, marginBottom: "20px" }}>
           <ButtonHome to={"/usestate"} nameButton={"useState"} />
           <ButtonHome to={"/usestate-exercicio"} nameButton={"useState Exercicio"} />
           <ButtonHome to={"/useeffect"} nameButton={"useEffect"} />
@@ -34,7 +34,7 @@ function Home() {
         </div>
 
         <h2>Módulo 03: Formulários</h2>
-        <div style={{ display: 'grid', gridTemplateColumns: "1fr 1fr 1fr 1fr", gap: 10 }}>
+        <div style={{ display: 'grid', gridTemplateColumns: "1fr 1fr 1fr 1fr", gap: 10, marginBottom: "20px" }}>
           <ButtonHome to={"/input"} nameButton={"Input"} />
           <ButtonHome to={"/input-exercicio"} nameButton={"Input Exercicio"} />
           <ButtonHome to={"/textarea"} nameButton={"TextArea"} />
