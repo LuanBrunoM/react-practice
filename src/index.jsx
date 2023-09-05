@@ -31,6 +31,7 @@ import ComponentesInput from './pages/3.6-componentes-input/App.jsx'
 import ComponentesSelect from './pages/3.7-componentes-select/App.jsx'
 import ComponentesRadio from './pages/3.8-componentes-radio/App.jsx'
 import ComponentesCheckbox from './pages/3.9-componentes-checkbox/App.jsx'
+import Validacao from './pages/3.10-validacao/App.jsx'
 
 const root = document.getElementById('root');
 
@@ -66,6 +67,7 @@ createRoot(root).render(
       <Route path="/componentes-select" element={<ComponentesSelect />} />
       <Route path="/componentes-radio" element={<ComponentesRadio />} />
       <Route path="/componentes-checkbox" element={<ComponentesCheckbox />} />
+      <Route path="/validacao" element={<Validacao />} />
     </Routes>
   </BrowserRouter>
 );
