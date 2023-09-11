@@ -1,5 +1,7 @@
 import React from 'react';
 import ButtonHome from './ButtonHome';
+import ContainerHome from './ContainerHome';
+
 
 function Home() {
   return (
@@ -10,7 +12,7 @@ function Home() {
       <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
 
         <h2>Módulo 01: React Introdução</h2>
-        <div style={{ display: 'grid', gridTemplateColumns: "1fr 1fr 1fr 1fr", gap: 10, marginBottom: "20px" }}>
+        <ContainerHome>
           <ButtonHome to={"/jsx-conceitos"} nameButton={"JSX Conceitos"} />
           <ButtonHome to={"/jsx-conceitos-exercicio"} nameButton={"JSX Conceitos Exercício"} />
           <ButtonHome to={"/jsx-arrays"} nameButton={"JSX Arrays"} />
@@ -18,10 +20,10 @@ function Home() {
           <ButtonHome to={"/eventos"} nameButton={"Eventos"} />
           <ButtonHome to={"/componentes"} nameButton={"Componentes"} />
           <ButtonHome to={"/propriedades"} nameButton={"Propriedades"} />
-        </div>
+        </ContainerHome>
 
         <h2>Módulo 02: Hooks</h2>
-        <div style={{ display: 'grid', gridTemplateColumns: "1fr 1fr 1fr 1fr", gap: 10, marginBottom: "20px" }}>
+        <ContainerHome>
           <ButtonHome to={"/usestate"} nameButton={"useState"} />
           <ButtonHome to={"/usestate-exercicio"} nameButton={"useState Exercicio"} />
           <ButtonHome to={"/useeffect"} nameButton={"useEffect"} />
@@ -31,10 +33,10 @@ function Home() {
           <ButtonHome to={"/usecontext"} nameButton={"useContext"} />
           <ButtonHome to={"/usecontext-exercicio"} nameButton={"useContext Exercicio"} />
           <ButtonHome to={"/custom-hooks"} nameButton={"Custom Hooks"} />
-        </div>
+        </ContainerHome>
 
         <h2>Módulo 03: Formulários</h2>
-        <div style={{ display: 'grid', gridTemplateColumns: "1fr 1fr 1fr 1fr", gap: 10, marginBottom: "20px" }}>
+        <ContainerHome>
           <ButtonHome to={"/input"} nameButton={"Input"} />
           <ButtonHome to={"/input-exercicio"} nameButton={"Input Exercicio"} />
           <ButtonHome to={"/textarea"} nameButton={"TextArea"} />
@@ -48,7 +50,13 @@ function Home() {
           <ButtonHome to={"/componentes-checkbox"} nameButton={"Componentes Checkbox"} />
           <ButtonHome to={"/validacao"} nameButton={"Validação"} />
           <ButtonHome to={"/useform"} nameButton={"useForm"} />
-        </div>
+        </ContainerHome>
+
+        <h2>Módulo 04: CSS</h2>
+        <ContainerHome>
+          <ButtonHome to={"/css-import"} nameButton={"CSS Import"} />
+        </ContainerHome>
+
 
       </div>
     </>
